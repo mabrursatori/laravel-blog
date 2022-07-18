@@ -18,6 +18,7 @@
 --
 -- Table structure for table `blog_category`
 --
+use `heroku_8dfe9584dd92401`;
 
 DROP TABLE IF EXISTS `blog_category`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
