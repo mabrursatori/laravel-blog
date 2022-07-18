@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<<!-- CONTENT -->
+<!-- CONTENT -->
 
 
         <section class="blog-post-area">
@@ -12,7 +12,7 @@
                                 <div class="single-post-big">
                                     <div class="row d-flex align-items-center">
                                     <div class="big-image align-self-center col-md-6 col-sm-12">
-                                        <img src="{{ asset($mainBlog->image)}}" alt="">
+                                        <img src="{{ asset('storage/'.$mainBlog->image)}}" alt="">
                                     </div>
                                     <div class="big-text col-md-6 col-sm-12">
                                         <h3><a href="{{route('show', $mainBlog->slug)}}">{{ $mainBlog->title }}</a></h3>
